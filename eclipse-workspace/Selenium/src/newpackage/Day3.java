@@ -10,8 +10,8 @@ public class Day3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//System.setProperty("webdriver.chrome.driver",
-			//	"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		//ChromeDriver driver = new ChromeDriver();
 				
 			//	driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
@@ -94,25 +94,25 @@ public class Day3 {
 			//		System.out.println("Testcase 3 fail");
 			//	}
 				
-			//	// TestCase 4
-			//	driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-			//	driver.findElement(By.cssSelector("#contact_form > input:nth-child(1)")).sendKeys("chinmay");
-			//	driver.findElement(By.cssSelector("#contact_form > input:nth-child(2)")).sendKeys("deshpande");
-			//	driver.findElement(By.cssSelector("#contact_form > input:nth-child(3)")).sendKeys("chinmaydeshpande010@gmail.com");
+			//	 TestCase 4
+			//driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
+			//	driver.findElement(By.cssSelector("#contact_form > input:nth-child(1)")).sendKeys("Sabina");
+			//	driver.findElement(By.cssSelector("#contact_form > input:nth-child(2)")).sendKeys("Dahal");
+			//	driver.findElement(By.cssSelector("#contact_form > input:nth-child(3)")).sendKeys("sabinasharad@gmail.com");
 			//	driver.findElement(By.cssSelector("#contact_form > textarea")).sendKeys("hello learning selenium");
 			//	driver.findElement(By.cssSelector("#form_buttons > input:nth-child(1)")).click();
 			//	String q6 = driver.findElement(By.cssSelector("#contact_form > input:nth-child(1)")).getText();
 			//	System.out.println(q6);
-				//if(q6.isEmpty()) {
+			//	if(q6.isEmpty()) {
 					System.out.println("Test case 4 pass");
-				}
+	}}
 			//	else {
-				//	System.out.println("Test case 4 Fail");
+			//		System.out.println("Test case 4 Fail");
 				
 				
 				
 			
 				
-	}
+			//	} } }
 
 
