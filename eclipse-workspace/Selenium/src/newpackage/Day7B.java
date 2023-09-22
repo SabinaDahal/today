@@ -11,10 +11,10 @@ public class Day7B {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//System.setProperty("webdriver.chrome.driver",
-		//	"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
-//ChromeDriver driver = new ChromeDriver();
-//	driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 
 	//	WebElement option1 =driver.findElement(By.cssSelector("#checkboxes > label:nth-child(1) > input[type=checkbox]"));
 		//WebElement option2=driver.findElement(By.cssSelector("#checkboxes > label:nth-child(3) > input[type=checkbox]"));

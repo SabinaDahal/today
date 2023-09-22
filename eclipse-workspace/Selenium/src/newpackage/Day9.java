@@ -11,9 +11,11 @@ public class Day9 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub 
 		
-		        System.setProperty("webdriver.chrome.driver", 
-				  "C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe"); 
-				 ChromeDriver driver = new ChromeDriver();  
+		     
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver.exe");
+	ChromeDriver driver = new ChromeDriver();
 				 driver.get("http://www.webdriveruniversity.com/"); 
 				 String parentWindow = driver.getWindowHandle(); 
 				 System.out.println(parentWindow); 

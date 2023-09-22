@@ -1,8 +1,9 @@
 package newpackage;
 
-import org.openqa.selenium.By; 
-import org.openqa.selenium.WebElement; 
-import org.openqa.selenium.chrome.ChromeDriver; 
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
  
 
 public class Day2 {
@@ -11,12 +12,12 @@ public class Day2 {
 		// TODO Auto-generated method stub
 		
 		// WebElement methods 
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver.exe");
+//		ChromeDriver driver = new ChromeDriver();
 		   
-		 // System.setProperty("webdriver.chrome.driver", 
-			//	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
-		 // ChromeDriver driver = new ChromeDriver(); 
-		  
-		  // sendKeys(); 
+			  // sendKeys(); 
 		  // program 1 
 		//  driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html"); 
 		//  WebElement first_name= driver.findElement(By.cssSelector("#contact_form > input:nth-child(1)")); 
@@ -53,7 +54,7 @@ public class Day2 {
 		   
 		  // Program 2 
 		   
-		//  driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html"); 
+		// driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html"); 
 		   
 		  
 		  // is_displayed() 
@@ -76,10 +77,10 @@ public class Day2 {
 		  
 		   
 		  // is_selected() 
-		  // q4 --- true 
-		 // WebElement isSelected_radioB  = driver.findElement(By.cssSelector("#radio-buttons-selected-disabled > input[type=radio]:nth-child(5)")); 
-		//  boolean q4 = isSelected_radioB.isSelected(); 
-		//  System.out.println(q4); 
+		//   q4 --- true 
+	//	  WebElement isSelected_radioB  = driver.findElement(By.cssSelector("#radio-buttons-selected-disabled > input[type=radio]:nth-child(5)")); 
+		// boolean q4 = isSelected_radioB.isSelected(); 
+		// System.out.println(q4); 
 		   
 		   
 		  // submit() 

@@ -11,9 +11,11 @@ public class Day7 {
 		// TODO Auto-generated method stub
 		
 		
+		
+		
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sabin\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+				"C:\\Users\\sabin\\Downloads\\chromedriver\\chromedriver.exe");
+	ChromeDriver driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.saucedemo.com/");
